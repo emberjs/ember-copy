@@ -1,7 +1,7 @@
 ember-copy
 ==============================================================================
 
-[Short description of the addon.]
+This addon supplies a copy() function and Copyable mixin to replace the function and mixin now being deprecated in Ember.js. 
 
 Installation
 ------------------------------------------------------------------------------
@@ -14,7 +14,14 @@ ember install ember-copy
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+To use the addon, wherever you were using:
+
+`import {copy, Copyable} from '@ember/internals'`
+
+instead use:
+
+`import {copy, Copyable} from 'ember-copy'`
+
 
 
 Contributing
@@ -22,7 +29,7 @@ Contributing
 
 ### Installation
 
-* `git clone <repository-url>`
+* `git clone https:\\github.com\emberjs\ember-copy`
 * `cd ember-copy`
 * `npm install`
 
