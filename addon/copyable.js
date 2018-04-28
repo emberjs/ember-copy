@@ -10,7 +10,6 @@ import Mixin from '@ember/object/mixin';
   receiver.
 
   @class Copyable
-  @namespace ember-copy
   @private
 */
 export default Mixin.create({

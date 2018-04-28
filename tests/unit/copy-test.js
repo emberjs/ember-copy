@@ -1,4 +1,4 @@
-import copy from 'ember-copy/copy';
+import { copy } from 'ember-copy';
 import { module, test } from 'qunit';
 
 module('Unit | Utility | copy', function(/*hooks*/) {

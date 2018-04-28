@@ -74,11 +74,9 @@ function _copy(obj, deep, seen, copies) {
   is simply returned.
 
   @function copy
-  @static
   @param {Object} obj The object to clone
   @param {Boolean} [deep=false] If true, a deep copy of the object is made.
   @return {Object} The copied object
-  @public
 */
 export default function copy(obj, deep) {
   // fast paths
