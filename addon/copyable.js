@@ -1,6 +1,3 @@
-/**
- * @module ember-copy
-*/
 
 import Mixin from '@ember/object/mixin';
 

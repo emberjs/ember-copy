@@ -2,9 +2,6 @@ import { assert } from '@ember/debug';
 import EmberObject from '@ember/object';
 import Copyable from './copyable';
 
-/**
- @module ember-copy
-*/
 function _copy(obj, deep, seen, copies) {
   // primitive data types are immutable, just return them.
   if (typeof obj !== 'object' || obj === null) {
@@ -76,7 +73,7 @@ function _copy(obj, deep, seen, copies) {
   For primitive values (which are immutable in JavaScript), the passed object
   is simply returned.
 
-  @method copy
+  @function copy
   @static
   @param {Object} obj The object to clone
   @param {Boolean} [deep=false] If true, a deep copy of the object is made.

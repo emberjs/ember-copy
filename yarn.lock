@@ -2961,9 +2961,9 @@ ember-cli-addon-docs-yuidoc@^0.2.0:
     lodash "^4.17.5"
     yuidocjs "^0.10.2"
 
-ember-cli-addon-docs@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-addon-docs/-/ember-cli-addon-docs-0.4.0.tgz#e8665aed524779dbf476ea1928807056e601d02d"
+ember-cli-addon-docs@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-addon-docs/-/ember-cli-addon-docs-0.4.1.tgz#d62744f5be9ad89b58e398339338cddfddb97e51"
   dependencies:
     "@glimmer/syntax" "^0.30.5"
     broccoli-caching-writer "^3.0.3"
@@ -2991,7 +2991,7 @@ ember-cli-addon-docs@^0.4.0:
     ember-keyboard "^3.0.0"
     ember-modal-dialog "2.4.3"
     ember-responsive "^3.0.0-beta.1"
-    ember-router-scroll "^0.4.0"
+    ember-router-scroll "^0.6.0"
     ember-svg-jar "^0.12.0"
     ember-tether "^1.0.0-beta.2"
     ember-truth-helpers "^2.0.0"
@@ -3629,9 +3629,9 @@ ember-router-generator@^1.2.3:
   dependencies:
     recast "^0.11.3"
 
-ember-router-scroll@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/ember-router-scroll/-/ember-router-scroll-0.4.0.tgz#df833738471bc854c76fc8620853563f275e649f"
+ember-router-scroll@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/ember-router-scroll/-/ember-router-scroll-0.6.0.tgz#e94fda377bd00c45d866123ec6dcf05654d4d987"
   dependencies:
     ember-app-scheduler "^0.2.0"
     ember-cli-babel "^6.6.0"
