@@ -10,7 +10,6 @@ import Mixin from '@ember/object/mixin';
   receiver.
 
   @class Copyable
-  @private
 */
 export default Mixin.create({
   /**
@@ -22,7 +21,6 @@ export default Mixin.create({
     @method copy
     @param {Boolean} deep if `true`, a deep copy of the object should be made
     @return {Object} copy of receiver
-    @private
   */
   copy: null
 });
