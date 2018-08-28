@@ -16,7 +16,7 @@ Usage
 
 To use the addon, wherever you were using:
 
-`import {copy, Copyable} from '@ember/internals'`
+`import {copy, Copyable} from '@ember/object/internals'`
 
 instead use:
 
