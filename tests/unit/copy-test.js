@@ -28,4 +28,18 @@ module('Unit | Utility | copy', function(/*hooks*/) {
     assert.deepEqual(array, arrayCopy, 'array content cloned successfully in new array');
   });
 
+
+  test('copy cycle detection', function(assert) {
+    let obj = {
+      foo: {
+        bar: 'bar',
+      },
+    };
+    obj.foo.foo = obj.foo;
+    let cycleCopy = copy(obj, true);
+
+    assert.equal(cycleCopy.foo.bar, 'bar');
+    assert.notEqual(cycleCopy.foo.foo, obj.foo.foo);
+    assert.strictEqual(cycleCopy.foo.foo, cycleCopy.foo.foo);
+  });
 });
