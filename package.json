@@ -11,7 +11,7 @@
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/lupestro/ember-copy",
+  "repository": "https://github.com/emberjs/ember-copy",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
@@ -61,6 +61,5 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  },
-  "homepage": "https://lupestro.github.io/ember-copy"
+  }
 }
