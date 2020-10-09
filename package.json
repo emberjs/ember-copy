@@ -5,13 +5,13 @@
   "keywords": [
     "ember-addon"
   ],
+  "repository": "https://github.com/emberjs/ember-copy",
   "license": "MIT",
   "author": "Lupestro",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "https://github.com/lupestro/ember-copy",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
@@ -53,13 +53,32 @@
     "eslint-plugin-ember": "^5.0.0",
     "eslint-plugin-node": "^6.0.1",
     "loader.js": "^4.2.3",
+    "release-it": "^14.0.2",
+    "release-it-lerna-changelog": "^2.4.0",
     "yuidocjs": "^0.10.2"
   },
   "engines": {
     "node": ">= 10.*"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "ember-addon": {
     "configPath": "tests/dummy/config"
   },
-  "homepage": "https://lupestro.github.io/ember-copy"
+  "release-it": {
+    "plugins": {
+      "release-it-lerna-changelog": {
+        "infile": "CHANGELOG.md",
+        "launchEditor": true
+      }
+    },
+    "git": {
+      "tagName": "v${version}"
+    },
+    "github": {
+      "release": true,
+      "tokenRef": "GITHUB_AUTH"
+    }
+  }
 }
