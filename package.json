@@ -1,6 +1,6 @@
 {
   "name": "ember-copy",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Ember addon to replace deprecated copy function and Copyable mixin",
   "keywords": [
     "ember-addon"
