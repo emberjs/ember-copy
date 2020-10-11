@@ -11,6 +11,7 @@ import Mixin from '@ember/object/mixin';
 
   @class Copyable
 */
+// eslint-disable-next-line ember/no-new-mixins
 export default Mixin.create({
   /**
     __Required.__ You must implement this method to apply this mixin.

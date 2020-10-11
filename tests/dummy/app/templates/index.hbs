@@ -1,13 +1,9 @@
-{{docs-header}}
+<DocsHeader />
 
-{{docs-hero
-  logo='ember'
-  slimHeading=''
-  strongHeading='copy'
-  byline=''}}
+<DocsHero @logo="ember" @slimHeading="" @strongHeading="copy" @byline="" />
 
-{{#docs-demo as |demo|}}
-  {{#demo.example name='my-demo.hbs'}}
+<DocsDemo as |demo|>
+  <demo.example @name="my-demo.hbs">
     <p></p>
-  {{/demo.example}}
-{{/docs-demo}}
+  </demo.example>
+</DocsDemo>
