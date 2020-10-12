@@ -1,3 +1,12 @@
+## v2.0.1 (2020-10-12)
+
+#### :house: Internal
+* [#3](https://github.com/emberjs/ember-copy/pull/3) Update to Ember 3.21 blueprint ([@loganrosen](https://github.com/loganrosen))
+
+#### Committers: 1
+- Logan Rosen ([@loganrosen](https://github.com/loganrosen))
+
+
 ## v2.0.0 (2020-10-09)
 
 #### :boom: Breaking Change
